@@ -6,6 +6,7 @@ function App() {
   const lang= ['html', 'css', 'js', 'php']
   return (
     <div class='card' >
+      <h2>Задание 8</h2>
             <ul> 
 {lang.map((item,index)=> <li key={index.toString()}>{item}</li>)}
 
@@ -13,5 +14,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
